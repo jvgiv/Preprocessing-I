@@ -224,7 +224,36 @@ header nav a {
   font-weight: bold;
   margin: 10px 0;
 }
+.parent-container p {
+  line-height: 1.5;
+}
 .parent-container li {
   border: 1px solid gray;
-  padding: 3px;
+  padding: 10px;
+}
+.bottom {
+  font-size: 1.6rem;
+  margin: 10px;
+}
+.bottom h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.bottom table {
+  border-collapse: collapse;
+}
+.bottom th,
+.bottom td {
+  padding: 15px;
+  text-align: center;
+}
+.bottom th {
+  font-weight: bold;
+}
+.bottom .odd-row {
+  background-color: #CBD1DC;
+}
+.bottom .years {
+  font-weight: bold;
 }
