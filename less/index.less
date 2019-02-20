@@ -56,6 +56,7 @@ table {
 html, body {
     height: 100%;
 		font-size: 62.5%
+		// font-family: "Arial Black", Gadget, sans-serif;
 }
 
 // Beginning of Code
@@ -67,8 +68,8 @@ html, body {
 .container {
 	width: 800px;
 	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
+	// display: flex;
+	// flex-direction: column;
 }
 
 header {
@@ -78,8 +79,8 @@ header {
 	height: 25px;
 	margin-bottom: 20px;
 	flex-wrap: wrap;
-	border: 1px solid blue;
 	flex-direction: flex-end;
+	padding-top: 15px;
 
 
 	nav {
@@ -101,31 +102,55 @@ header {
 .top-box {
 	display: flex;
 	font-size: 1.6rem;
-	border: 1px solid red;
-	width: 100%;
+	width: 800px;
 	height: auto;
 	flex-wrap: wrap;
 	justify-content: center;
+	background: #CBD1DC;
+	flex-direction: column;
+	border-radius: 2%;
 
+		img {
+			width: 50%;
+			margin: 10px;
+			border-radius: 10%
+		}
 
 		h1 {
 			font-size: 3.5rem;
 			justify-content: center;
+			align-item: center;
+			margin: 10px;
 		}
 
 		h4 {
-			font-size: 2.5rem;
+			font-size: 2.2rem;
+			margin: 10px;
 		}
 
 		p {
 			font-size: 1.6rem;
+			margin: 10px;
 		}
 		.top-child {
-			width: 51%;
-			flex-direction: column;
-			// align-items: center;
-
-
 		}
 
+		.button {
+			width: 250px;
+			height: 50px;
+			margin: 10px;
+			background: #303F5A;
+			border: 1px solid #303F5A;
+			font-size: 2rem;
+			color: white;
+			cursor: pointer;
+		}
+
+		.button:hover {
+			width: 250px;
+			height: 50px;
+			margin: 10px;
+			background: white;
+			color: #303F5A;
+		}
 }
