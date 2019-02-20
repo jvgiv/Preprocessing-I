@@ -149,6 +149,10 @@ header {
   flex-direction: flex-end;
   padding-top: 15px;
 }
+header .fas {
+  width: 250%;
+  height: 250%;
+}
 header nav {
   display: flex;
   align-items: center;
@@ -205,4 +209,22 @@ header nav a {
   margin: 10px;
   background: white;
   color: #303F5A;
+}
+.parent-container {
+  font-size: 1.6rem;
+  margin: 10px;
+  display: flex;
+}
+.parent-container .child1 {
+  width: 45%;
+  margin: 0 2.5%;
+}
+.parent-container h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.parent-container li {
+  border: 1px solid gray;
+  padding: 3px;
 }
