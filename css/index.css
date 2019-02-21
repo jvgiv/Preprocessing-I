@@ -195,6 +195,7 @@ header nav a {
   margin: 10px;
   padding-top: 20px;
   border-top: 1px solid gray;
+  width: 780px;
 }
 .top-box .button {
   width: 250px;
@@ -261,7 +262,7 @@ header nav a {
 .bottom .years {
   font-weight: bold;
 }
-.contact {
+#contact {
   display: flex;
   font-size: 1.6rem;
   margin: 10px;
@@ -269,12 +270,12 @@ header nav a {
   justify-content: center;
   flex-direction: column;
 }
-.contact h3 {
+#contact h3 {
   font-size: 2rem;
   font-weight: bold;
   margin: 10px 0;
 }
-.contact p {
+#contact p {
   line-height: 1.5;
 }
 footer {
