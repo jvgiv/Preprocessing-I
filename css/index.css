@@ -134,6 +134,7 @@ html,
 body {
   height: 100%;
   font-size: 62.5%;
+  font-family: Arial, sans-serif;
 }
 .container {
   width: 800px;
@@ -192,6 +193,8 @@ header nav a {
 .top-box p {
   font-size: 1.6rem;
   margin: 10px;
+  padding-top: 20px;
+  border-top: 1px solid gray;
 }
 .top-box .button {
   width: 250px;
@@ -242,6 +245,7 @@ header nav a {
 }
 .bottom table {
   border-collapse: collapse;
+  margin-bottom: 40px;
 }
 .bottom th,
 .bottom td {
@@ -256,4 +260,32 @@ header nav a {
 }
 .bottom .years {
   font-weight: bold;
+}
+.contact {
+  display: flex;
+  font-size: 1.6rem;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.contact p {
+  line-height: 1.5;
+}
+footer {
+  color: #303F5A;
+  display: flex;
+  background: #CBD1DC;
+  height: 80px;
+  font-size: 1.6rem;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
 }

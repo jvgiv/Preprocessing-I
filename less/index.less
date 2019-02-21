@@ -55,15 +55,17 @@ table {
 
 html, body {
     height: 100%;
-		font-size: 62.5%
-		// font-family: "Arial Black", Gadget, sans-serif;
+		font-size: 62.5%;
+		font-family: Arial, sans-serif;
 }
 
 // Beginning of Code
 
 // variables
 
+@button: #303F5A;
 
+@background: #CBD1DC;
 
 .container {
 	width: 800px;
@@ -110,7 +112,7 @@ header {
 	height: auto;
 	flex-wrap: wrap;
 	justify-content: center;
-	background: #CBD1DC;
+	background: @background;
 	flex-direction: column;
 	border-radius: 2%;
 
@@ -135,6 +137,8 @@ header {
 		p {
 			font-size: 1.6rem;
 			margin: 10px;
+			padding-top: 20px;
+			border-top: 1px solid gray;
 		}
 		.top-child {
 		}
@@ -143,8 +147,8 @@ header {
 			width: 250px;
 			height: 50px;
 			margin: 10px;
-			background: #303F5A;
-			border: 1px solid #303F5A;
+			background: @button;
+			border: 1px solid @button;
 			font-size: 2rem;
 			color: white;
 			cursor: pointer;
@@ -155,7 +159,7 @@ header {
 			height: 50px;
 			margin: 10px;
 			background: white;
-			color: #303F5A;
+			color: @button;
 		}
 }
 
@@ -201,6 +205,7 @@ header {
 	table {
 		// border: 1px solid black;
 		border-collapse: collapse;
+		margin-bottom: 40px;
 	}
 
 	th, td {
@@ -213,10 +218,42 @@ header {
 	}
 
 	 .odd-row {
-		 background-color: #CBD1DC;
+		 background-color: @background;
 	 }
 
 	 .years {
 		 font-weight: bold;
 	 }
+}
+
+.contact {
+	display: flex;
+	font-size: 1.6rem;
+	margin: 10px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	h3 {
+		font-size: 2rem;
+		font-weight: bold;
+		margin: 10px 0;
+	}
+
+	p {
+		line-height: 1.5;
+	}
+}
+
+footer {
+	color: @button;
+	display: flex;
+	background: @background;
+	height: 80px;
+	font-size: 1.6rem;
+	align-items: center;
+	justify-content: center;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
 }
